@@ -1,8 +1,27 @@
 {
-  "siteName": "My Notes",
-  "siteDescription": "Personal knowledge base",
-  "siteLang": "en",
-  "vaultDir": "vault",
+  "siteName": "我的笔记",
+  "siteDescription": "个人知识基础",
+  "siteLang": "zh-CN",
+  "vaultDir": "写项",
   "buildMode": "full",
-  "out": "dist"
+  "outDir": "dist",
+  "markdown": {
+    "renderer": "markdown-it",
+    "plugins": [
+      "markdown-it-table",
+      "markdown-it-html5-embed"
+    ],
+    "options": {
+      "html": true,
+      "linkify": true,
+      "typographer": true,
+      "breaks": true,
+      "xhtmlOut": true
+    }
+  },
+  "tables": {
+    "enable": true,
+    "className": "table table-striped",
+    "responsive": true
+  }
 }
