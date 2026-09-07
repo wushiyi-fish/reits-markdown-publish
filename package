@@ -1,0 +1,10 @@
+{
+  "name": "reits-notes",
+  "private": true,
+  "devDependencies": {
+    "@abstractwebunit/markdown-publish": "1.0.6"
+  },
+  "overrides": {
+    "@ng-draw-flow/core": "1.1.0"
+  }
+}
