@@ -3,6 +3,8 @@
   "private": true,
   "devDependencies": {
     "@abstractwebunit/markdown-publish": "1.0.6"
+    "@ng-web-apis/platform": "^4.0.0",
+    "markdown-it-html5-embed": "^1.0.0"
   },
   "overrides": {
     "@ng-draw-flow/core": "1.1.0"
