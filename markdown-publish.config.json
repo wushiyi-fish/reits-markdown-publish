@@ -2,7 +2,7 @@
   "siteName": "reits-notes",
   "siteDescription": "个人知识基础",
   "siteLang": "zh-CN",
-  "vaultDir": "写项",
+  "vaultDir": "vault",
   "buildMode": "full",
   "outDir": "dist",
   "markdown": {
